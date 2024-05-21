@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+Title: Seaats Task
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Description:
 
-## Get started
+This is a ride hailing inspired app, built using React Native and Expo with tpsecript. The app leverages Google Maps API for location tracking and route visualization.
 
-1. Install dependencies
+Key Features:
 
-   ```bash
-   npm install
-   ```
+Built with React Native: Utilizes React Native's cross-platform capabilities to ensure seamless deployment on iOS and Android.
+Expo Integration: Streamlines development by leveraging Expo's tools and functionalities.
+Google Maps Integration: Employs Google Maps API for real-time location tracking, address search, and route visualization using polylines.
+Matches Brand Identity: Uses the same color codes as Seaats' website for a seamless user experience and to increase brand recognition.
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+Highlights:
 
-In the output, you'll find options to open the app in a
+Clean and Maintainable Code: Prioritizes code readability and maintainability through proper structure, comments, and modular design.
+Efficient Use of Expo Features: Leverages Expo's functionalities to optimize app development and reduce boilerplate code.
+Adherence to Best Practices: Follows industry best practices for React Native and Google Maps API integration.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Prerequisites:
 
-## Get a fresh project
+Node.js and npm (or yarn) installed on your machine
+An Expo account 
+Installation:
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+cd SeaatsTask
 
-To learn more about developing your project with Expo, look at the following resources:
+npm install
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+npx expo start
 
-## Join the community
+Open the Expo Go app on your device and scan the QR code displayed in the terminal.
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+N.B
+program was tested on an IOS device using Expo Go and on an Android device using an emulator.
+Kindly find the test run video attached.
